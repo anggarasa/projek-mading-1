@@ -8,22 +8,6 @@
 </ul>
 
 ## Cara Menginstall Projek Ini
-<h4>Code example</h4>
-          <p>A serif is a small shape or projection that appears at the beginning or end of a stroke on a letter.
-              Typefaces with serifs are called serif typefaces. Serif fonts are classified as one of the
-              following:</p>
-          <pre><code class="language-html">&lt;dl class="grid grid-cols-2 gap-8 max-w-screen-md text-gray-900 sm:grid-cols-3 dark:text-white"&gt;
-&lt;div class="flex flex-col justify-center items-center"&gt;
-  &lt;dt class="mb-2 text-3xl font-extrabold"&gt;73M+&lt;/dt&gt;
-  &lt;dd class="text-lg font-normal text-gray-500 dark:text-gray-400"&gt;developers&lt;/dd&gt;
-&lt;/div&gt;
-&lt;div class="flex flex-col justify-center items-center"&gt;
-  &lt;dt class="mb-2 text-3xl font-extrabold"&gt;1B+&lt;/dt&gt;
-  &lt;dd class="text-lg font-normal text-gray-500 dark:text-gray-400"&gt;contributors&lt;/dd&gt;
-&lt;/div&gt;
-&lt;div class="flex flex-col justify-center items-center"&gt;
-  &lt;dt class="mb-2 text-3xl font-extrabold"&gt;4M+&lt;/dt&gt;
-  &lt;dd class="text-lg font-normal text-gray-500 dark:text-gray-400"&gt;organizations&lt;/dd&gt;
-&lt;/div&gt;
-&lt;/dl&gt;
+  <p>Pastikan di laptop/komputer anda sudah menginstal composer dan nodeJs kalau sudah ada silakan anda ikuti cara instalasi di bawah ini</p>
+          <pre><code class="language-html">&lt;composer install&gt;
 </code></pre>
