@@ -1,4 +1,4 @@
-<p align="center">Kelompok 2 Back-End Smk Al-intisab</p>
+<p align="center">## Kelompok 2 Back-End Smk Al-intisab</p>
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
