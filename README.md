@@ -11,10 +11,14 @@
   <p>Pastikan di laptop/komputer anda sudah menginstal composer dan nodeJs kalau sudah ada silakan anda ikuti cara instalasi di bawah ini</p>
   1. Jalankan perintah composer install di terminal/cmd
       <pre><code class="language-html">& composer install</code></pre>
+
+      
   2. Jalankan perintah npm install
           <pre><code class="language-html">& npm install</code></pre>
-  3. Copy file .env example dan paste lalu ubah namanya menjadi .env
 
+          
+  3. Copy file .env.example dan paste lalu ubah namanya menjadi .env
+<br><br><br><br>
    4. <pre><code class="language-html">& php artisan key:generate</code></pre>
 
    5. <pre><code class="language-html">& php artisan config:cache</code></pre>
