@@ -24,7 +24,10 @@ use App\Http\Controllers\AdminMadingsController;
 */
 
 Route::get('/', function () {
-    return view('page_one');
+    return view('page_one', [
+        'murid' => User::where('role', 'MURID')->count(),
+        'guru' => User::where('role', 'GURU')->count(),
+    ]);
 });
 
 // Halaman public

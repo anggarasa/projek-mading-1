@@ -92,7 +92,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'murid1@gmail.com',
             'kelas' => 'XI RPL',
             'number' => '081224242608',
-            'password' => bcrypt('angga123')
+            'password' => bcrypt('murid123')
         ]);
 
     }
