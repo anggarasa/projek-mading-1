@@ -21,7 +21,9 @@
 <br><br>
    5. <pre><code class="language-html">& php artisan config:cache</code></pre>
 <br><br>
-   6. <pre><code class="language-html">& php artisan route:cache</code></pre>
-<br><br>
    <h3>Setelah selesai menginstal silakan jalankan perintah ini kalau anda ingin melihat projek ini di web</h3>
    <pre><code class="language-html">& npm run dev</code></pre>
+
+
+## About 
+ Kami membuat sebuah mading yang berbasis website yang khusus sekolah Al-intisab, 
