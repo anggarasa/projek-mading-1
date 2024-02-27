@@ -17,9 +17,11 @@
      <br><br>
   <p>3. Copy file .env.example dan paste lalu ubah namanya menjadi .env</p>
 <br><br>
-   4. <pre><code class="language-html">& php artisan key:generate</code></pre>
+   4. untuk menghasilkan kunci enkripsi yang digunakan oleh berbagai komponen dalam aplikasi Laravel, terutama untuk enkripsi sesi dan cookies.
+       <pre><code class="language-html">& php artisan key:generate</code></pre>
 <br><br>
-   5. <pre><code class="language-html">& php artisan config:cache</code></pre>
+   5. untuk mengoptimalkan performa aplikasi Laravel dengan menyimpan semua file konfigurasi dalam satu file cache.
+       <pre><code class="language-html">& php artisan config:cache</code></pre>
 <br><br>
    <h3>Setelah selesai menginstal silakan jalankan perintah ini kalau anda ingin melihat projek ini di web</h3>
    <pre><code class="language-html">& npm run dev</code></pre>
