@@ -23,6 +23,13 @@
    5. untuk mengoptimalkan performa aplikasi Laravel dengan menyimpan semua file konfigurasi dalam satu file cache.
        <pre><code class="language-html">& php artisan config:cache</code></pre>
 <br><br>
+   6. Jangan lupa untuk migrate supaya database yang ada diprojek ini tersimpan database anda
+   <pre><code class="language-html">& php artisan migrate</code></pre>
+   <br><br>
+   7. Lalu ketikan perintah dibawah ini supaya data yang ada diprojek ini tersimpan di database anda
+   <pre><code class="language-html">& php artisan db:seed</code></pre>
+   <br><br>
+   
    <h3>Setelah selesai menginstal silakan jalankan perintah ini kalau anda ingin melihat projek ini di web</h3>
    <pre><code class="language-html">& npm run dev</code></pre>
 
