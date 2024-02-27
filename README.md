@@ -26,4 +26,15 @@
 
 
 ## About 
- Kami membuat sebuah mading yang berbasis website yang khusus sekolah Al-intisab, 
+ Kami membuat sebuah mading berbasis website khusus sekolah Al-intisab, jika anda ingin mencoba aplikasi ini di device anda silakan dibawah ini adalah akun-akun yang sudah di siapkan oleh kami:
+ - Akun admin
+       email: admin@gmail.com
+       password: admin123
+   <br>
+ - Akun Khusus untuk Guru
+       email: guru1@gmail.com
+       password: guru123
+   <br>
+ - Akun Uji coba murid
+       email: murid1@gmail.com
+       password: murid123
