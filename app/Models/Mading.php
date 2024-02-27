@@ -11,6 +11,7 @@ class Mading extends Model
     use HasFactory;
 
     protected $guarded = ['id'];
+    protected $with = ['author'];
 
     public function scopeCari($query, array $cari)
     {
