@@ -16,7 +16,7 @@ class GuruMadingController extends Controller
     {
         return view('guru.madings.index', [
             'title' => "My Madings",
-            'madings' => Mading::where('user_id', auth()->user()->id)->get()
+            'madings' => Mading::where('user_id', auth()->user()->id)->paginate(5)->withQueryString()
         ]);
     }
 

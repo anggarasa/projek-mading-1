@@ -14,7 +14,7 @@ class AdminUsersController extends Controller
     {
         return view('admin.users.murid.user_admins_murid', [
             "title" => "Murid",
-            'murids' => User::where('role', 'MURID')->user(request(['search']))->get(),
+            'murids' => User::where('role', 'MURID')->user(request(['search']))->paginate(5)->withQueryString(),
             'jumlahMurid' => User::where('role', 'MURID')->count(),
         ]);
     }
@@ -50,7 +50,7 @@ class AdminUsersController extends Controller
     {
         return view('admin.users.guru.user_admins_guru', [
             'title' => "guru",
-            'gurus' => User::where('role', 'GURU')->user(request(['search']))->get(),
+            'gurus' => User::where('role', 'GURU')->user(request(['search']))->paginate(5)->withQueryString(),
             'jumlahGuru' => User::where('role', 'GURU')->count(),
         ]);
     }
@@ -87,7 +87,7 @@ class AdminUsersController extends Controller
     {
         return view('admin.users.adminUser.user_admins', [
             'title' => "Admin",
-            'admins' => User::where('role', 'ADMIN')->user(request(['search']))->get(),
+            'admins' => User::where('role', 'ADMIN')->user(request(['search']))->paginate(5)->withQueryString(),
             'jumlahAdmin' => User::where('role', 'ADMIN')->count(),
         ]);
     }

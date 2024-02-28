@@ -14,7 +14,7 @@ class GuruUsersController extends Controller
     {
         return view('guru.users.index', [
             'title' => "Guru",
-            'gurus' => User::where('role', 'GURU')->user(request(['search']))->get(),
+            'gurus' => User::where('role', 'GURU')->user(request(['search']))->paginate(5)->withQueryString(),
             'jumlah' => User::where('role', 'GURU')->count(),
         ]);
     }

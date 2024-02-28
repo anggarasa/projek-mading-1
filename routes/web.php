@@ -91,7 +91,7 @@ Route::middleware(['auth', 'aksesUser:GURU'])->group(function() {
     Route::get('/guru/users/murid', function () {
         return view('guru.murid.index', [
             'title' => "Murid",
-            'users' => User::where('role', 'MURID')->user(request(['search']))->get(),
+            'users' => User::where('role', 'MURID')->user(request(['search']))->paginate(5)->withQueryString(),
             'jumlah' => User::where('role', 'MURID')->count()
         ]);
     });

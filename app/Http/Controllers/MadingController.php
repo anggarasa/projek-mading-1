@@ -14,7 +14,7 @@ class MadingController extends Controller
     {
         return view('public.blog', [
             'title' => 'Mading Page',
-            'madings' => Mading::latest()->cari(request(['search']))->get()
+            'madings' => Mading::latest()->cari(request(['search']))->paginate(6)->withQueryString()
         ]);
     }
 

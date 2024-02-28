@@ -65,4 +65,8 @@
         </div>
     </div>
 </section>
+
+<div class="px-96">
+  {{ $madings->links() }}
+</div>
 @endsection
