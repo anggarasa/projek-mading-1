@@ -29,6 +29,9 @@
    7. Lalu ketikan perintah dibawah ini supaya data yang ada diprojek ini tersimpan di database anda
    <pre><code class="language-html">& php artisan db:seed</code></pre>
    <br><br>
+   8. Supaya folder storage terikat dengan folder public
+   <pre><code class="language-html">& php artisan storage:link</code></pre>
+   <br><br>
    
    <h3>Setelah selesai menginstal silakan jalankan perintah ini kalau anda ingin melihat projek ini di web</h3>
    <pre><code class="language-html">& npm run dev</code></pre>
