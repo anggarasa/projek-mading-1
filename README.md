@@ -10,27 +10,27 @@
 ## Cara Menginstall Projek Ini
   <p>Pastikan di laptop/komputer anda sudah menginstal composer dan nodeJs kalau sudah ada silakan anda ikuti cara instalasi di bawah ini</p>
   1. Jalankan perintah composer install di terminal/cmd
-      <pre><code class="language-html">& composer install</code></pre>
+      <pre><code class="language-html">$ composer install</code></pre>
       <br><br>
   2. Jalankan perintah npm install
-     <pre><code class="language-html">& npm install</code></pre>
+     <pre><code class="language-html">$ npm install</code></pre>
      <br><br>
   <p>3. Copy file .env.example dan paste lalu ubah namanya menjadi .env</p>
 <br><br>
    4. untuk menghasilkan kunci enkripsi yang digunakan oleh berbagai komponen dalam aplikasi Laravel, terutama untuk enkripsi sesi dan cookies.
-       <pre><code class="language-html">& php artisan key:generate</code></pre>
+       <pre><code class="language-html">$ php artisan key:generate</code></pre>
 <br><br>
    5. untuk mengoptimalkan performa aplikasi Laravel dengan menyimpan semua file konfigurasi dalam satu file cache.
-       <pre><code class="language-html">& php artisan config:cache</code></pre>
+       <pre><code class="language-html">$ php artisan config:cache</code></pre>
 <br><br>
    6. Jangan lupa untuk migrate supaya database yang ada diprojek ini tersimpan database anda
-   <pre><code class="language-html">& php artisan migrate</code></pre>
+   <pre><code class="language-html">$ php artisan migrate</code></pre>
    <br><br>
    7. Lalu ketikan perintah dibawah ini supaya data yang ada diprojek ini tersimpan di database anda
-   <pre><code class="language-html">& php artisan db:seed</code></pre>
+   <pre><code class="language-html">$ php artisan db:seed</code></pre>
    <br><br>
    8. Supaya folder storage terikat dengan folder public
-   <pre><code class="language-html">& php artisan storage:link</code></pre>
+   <pre><code class="language-html">$ php artisan storage:link</code></pre>
    <br><br>
    
    <h3>Setelah selesai menginstal silakan jalankan perintah ini kalau anda ingin melihat projek ini di web</h3>
