@@ -37,7 +37,7 @@
             <span class="sr-only">Toggle sidebar</span>
           </button>
           <a href="https://flowbite.com" class="flex items-center justify-between mr-4">
-            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Smk Al-intisab</span>
+            <span class="self-center text-base font-semibold whitespace-nowrap dark:text-white">Smk Al-intisab</span>
           </a>
           <form action="#" method="GET" class="hidden md:block md:pl-2">
             <label for="topbar-search" class="sr-only">Search</label>
